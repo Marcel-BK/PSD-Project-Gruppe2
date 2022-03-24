@@ -1,0 +1,49 @@
+*   {
+    margin: 0;
+}
+/* Mario Custom Style */
+header  {
+    background: url("pictures/header.jpg") no-repeat center top #3d3969;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 600px;
+}
+
+header > nav {
+    opacity: 0.9;
+}
+
+.navigation-bar {
+    width: 70%;
+    margin: auto;
+   
+}
+
+.navigation-bar > a {
+    float: left;
+}
+
+.navigation-bar > a > img {
+    width: 100px;
+    height: 100px;
+}
+
+.navigation-bar > ul {
+    float: right;
+}
+
+.navigation-bar > ul > li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+.header-title-container   {
+    padding-top: 200px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
