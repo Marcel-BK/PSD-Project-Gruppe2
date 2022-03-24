@@ -1,0 +1,11 @@
+.ourStory{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+p{
+    
+}
