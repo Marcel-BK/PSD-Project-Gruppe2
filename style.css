@@ -12,7 +12,7 @@ header  {
 }
 
 .navigation-bar {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -20,12 +20,11 @@ header  {
     float: left;
 }
 
-.navigation-bar > a {
-    float: left;
-}
-
 #logo {
-    height: 60px;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    padding-top: 5px;
 }
 
 .navigation-bar > ul {
