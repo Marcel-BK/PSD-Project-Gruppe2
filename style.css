@@ -1,6 +1,4 @@
-*   {
-    margin: 0;
-}
+
 /* Mario Custom Style */
 header  {
     background: url("pictures/bgk-header.png");
@@ -62,17 +60,16 @@ header  {
     position: relative;
     margin-top: 20%;
 }
+/* Mario Custom Style */
 
-.header-title-container > a    {
-    color: aquamarine;
-    text-decoration: none;
-    border: 1px solid aquamarine;
-    padding: 10px
-}
 
-.header-title-container > p {
-    line-height: 25px;
-    margin-bottom: 50px;
+/*  Karim s Style* ***********************************************************************/
+
+.storyContainer{
+    background-color: #fffefe;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
 }
 
 #underline   {
@@ -94,6 +91,7 @@ header  {
     flex: 33.33%;
   }
 
+  /* Mario Custom Style */
   footer  {
     background: url("pictures/bgk-footer.png");
     background-repeat: no-repeat;
@@ -103,29 +101,84 @@ header  {
       color: white;
   }
 
-  .columns  {
-      width: 70%;
+  #footer-button {
+    background-color: color; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .columns-mario  {
+      width: 80%;
       margin: auto;
       padding: 20px;
   }
 
-  .columns .column  {
-      padding-left :20px;
+  .columns-mario .column-mario  {
+      padding :0px 20px 0px 20px;
+      width: 33.3%;
+      float: left;
+      font-size: 14px;
   }
 
   #footer-logo  {
         width: auto;
         height: auto;
-        max-width: 100%;
+        max-width: 40%;
   }
 
-  .column:nth-child(2)  {
+  .column-mario:nth-child(2)  {
       padding-top: 20px;
   }
 
-  .column:nth-child(3)  {
+  .column-mario:nth-child(3)  {
     padding-top: 20px;
 }
 
 
 /* Mario Custom Style */
+    
+
+.row{
+    display:flex;
+    margin: 3rem 3rem 0 0;
+    flex: 1;
+}
+
+.column{
+    padding: 1rem 3rem;
+    flex: 1;
+}
+
+.column p {
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#9f9ea2;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.storyimage{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+#learnmore{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    background-color: white;
+    color: #6eddd1;
+    padding: 11px 10px;
+    border: #6eddd1 2px solid;
+    margin-top: 1.5rem;
+   
+}
+
+
